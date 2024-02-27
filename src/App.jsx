@@ -10,7 +10,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 const App = () => {
   return (
     <div className='app'>
-      <Router>
+      <Router basename="/vtgCars">
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/training' element={<Training/>}/>
